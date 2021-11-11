@@ -6,7 +6,8 @@ namespace Digits
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Digit number = new Digit(5, 6);
+            Console.WriteLine(number);
         }
     }
 }
